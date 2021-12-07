@@ -5,6 +5,6 @@ metadata:
 spec:
   params:
     - name: repository
-      value: "https://github.com/savya-alla/Tekton-Tutorial"
+      value: $(params.repository) 
     - name: branch
-      value: "master"
+      value: $(params.branch) 
