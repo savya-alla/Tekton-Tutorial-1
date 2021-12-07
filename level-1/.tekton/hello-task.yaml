@@ -1,4 +1,4 @@
-apiVersion: tekton.dev/v1alpha1
+apiVersion: tekton.dev/v1beta1
 kind: Task
 metadata:
   name: hello-task
@@ -9,4 +9,4 @@ spec:
       command:
         - echo
       args:
-        - "hello world"
+        - "welcome hello world"
