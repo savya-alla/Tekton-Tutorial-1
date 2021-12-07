@@ -9,4 +9,4 @@ spec:
       command:
         - echo
       args:
-        - "welcome hello world"
+        - "welcome to hello world"
